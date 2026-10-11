@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ReminderBot – Privacy policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <p><a href="./">← ReminderBot</a></p>
+  <h1>Privacy policy</h1>
+  <p class="lead">Last updated: 11 October 2026</p>
+
+  <p>ReminderBot is a personal reminder assistant used by one person, its owner. It runs on the
+    owner's own laptop. This page explains what it does with data, including data from Google.</p>
+
+  <h2>Google Calendar</h2>
+  <ul>
+    <li><strong>What it asks for:</strong> permission to manage calendar events
+      (<code>calendar.events</code>) in the owner's own Google account. It does not ask for email,
+      contacts, files or anything else.</li>
+    <li><strong>What it does with it:</strong> it creates an event for each reminder, and moves or
+      deletes that same event when the reminder is moved or cancelled. It does not read, copy or
+      analyse other events in the calendar.</li>
+    <li><strong>Where it is kept:</strong> the sign-in token from Google and the IDs of the events
+      it created are stored only on the owner's laptop. Nothing is stored on any other server.</li>
+    <li><strong>Sharing:</strong> data from Google is never sold, shared with anyone, used for
+      advertising, or sent to an AI model.</li>
+  </ul>
+  <p>ReminderBot's use and transfer of information received from Google APIs adheres to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+    User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Notes and messages</h2>
+  <p>The owner's notes arrive through Telegram and are stored only on the owner's laptop. To
+    understand a note, its text is sent to Claude (by Anthropic) through the owner's own Claude
+    account. Secrets the owner marks as secret are encrypted on the laptop and never sent to Claude
+    or Telegram.</p>
+
+  <h2>Removing access and data</h2>
+  <p>The owner can remove ReminderBot's access to Google Calendar at any time at
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+    Deleting the ReminderBot folder and its encrypted backup files on the laptop deletes all of
+    its data.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: open an issue at
+    <a href="https://github.com/Argin69/Argin69.github.io/issues">github.com/Argin69/Argin69.github.io</a>.</p>
+</main>
+</body>
+</html>
